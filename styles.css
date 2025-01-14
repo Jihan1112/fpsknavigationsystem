@@ -1,0 +1,152 @@
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(135deg, #001f3f, #004080);
+    color: #e0e0e0;
+    transition: background 0.3s ease-in-out;
+}
+header {
+    background: #00264d;
+    color: white;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+header h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+	
+}
+nav {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+nav a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: background 0.3s ease;
+	display: inline-block;
+      padding: 10px 20px;
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5); /* Half-transparent black */
+	 
+}
+nav a:hover {
+    background: rgba(255, 255, 255, 0.2);
+	
+}
+main {
+    padding: 2rem 1rem;
+    text-align: center;
+}
+.tour-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+.tour {
+    background: rgb(17, 13, 137)
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    max-width: 300px;
+    padding: 1rem;
+}
+.tour:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+	display: inline-block;
+      padding: 10px 20px;
+      margin: 0 10px;
+      text-decoration: none;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.5); /* Half-transparent black */
+}
+.tour h3 {
+    font-size: 1.5rem;
+    color: #66b2ff;
+    margin: 15px 0;
+}
+.tour p {
+    padding: 0 15px;
+    color: #b3d9ff;
+    margin-bottom: 15px;
+}
+.tour a {
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    background: rgb(17, 13, 137);
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 8px;
+    transition: background 0.3s ease;
+}
+.tour a:hover {
+    background: #003d80;
+}
+footer {
+   background: rgb(17, 13, 137);
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+footer a {
+    color: #66b2ff;
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: url('Background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #e0e0e0;
+    transition: background 0.3s ease-in-out;
+    margin: 0;
+}
+
+.container {
+    max-width: 1200px; /* Limit the width to 1200px */
+    margin: 0 auto; /* Center the container */
+    padding: 0 20px; /* Add padding for spacing */
+	
+}
+section {
+    background: rgb(17, 13, 137); /* Black with 50% transparency */
+    border-radius: 10px; /* Optional: rounded corners */
+    padding: 20px;
+    margin: 20px 0; /* Add spacing between sections */
+    color: #ffffff; /* Ensure text is visible on the dark background */
+	
+}
+
+section {
+    background: rgba(0, 0, 0, 0.5); /* Transparent black overlay */
+    color: white;
+}
+
+header {
+    background: rgb(17, 13, 137);
+}
